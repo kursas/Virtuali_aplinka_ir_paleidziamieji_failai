@@ -1,0 +1,12 @@
+C:\Users\Darius.Kacanauskas\PycharmProjects\pythonProject
+C:\Users\Darius.Kacanauskas\AppData\Roaming\JetBrains\PyCharmCE2022.2\scratches
+
+cmd
+D:\DUMENYS\DARIUS\Desktop\Projektas
+cd D:\DUMENYS\DARIUS\Desktop\Projektas--->iskart permenta i kataloga Projektas
+venv\Scripts\activate.bat--->aktyvuoja venv aplinka
+pip freeze>requirements.txt--->iraso i txt modulius su versijom
+
+2uzd
+pyinstaller --onefile  --icon=eina_sau.ico uzd.py-->sukuria exe 1faila su pasirinkta icona
+
