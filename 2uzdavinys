@@ -1,0 +1,56 @@
+# -*- coding:utf-8 -*-
+# Sukurti paleidžiamąjį failą iš programos, kuri:
+# • Leistų vartotojui įvesti metus nuo ir metus iki
+# • Atspausdintų visus keliamuosius metus pagal duotą rėžį
+# • Paleidžiamasis failas turi turėti norimą ikoną
+
+import calendar
+
+ivesti_metai_nuo = int(input("Įveskite datą nuo.. "))
+ivesti_metai_iki = int(input("Įveskite datą iki.. "))
+
+def keliamieji_metai(metai_nuo, metai_iki):
+    for metai in range(metai_nuo, metai_iki):
+        if calendar.isleap(metai):
+            print(metai)
+
+keliamieji_metai(ivesti_metai_nuo, ivesti_metai_iki)
+
+input("Norėdami uždaryti spauskite ENTER")
+
+#output
+Įveskite datą nuo.. 1900
+Įveskite datą iki.. 2022
+1904
+1908
+1912
+1916
+1920
+1924
+1928
+1932
+1936
+1940
+1944
+1948
+1952
+1956
+1960
+1964
+1968
+1972
+1976
+1980
+1984
+1988
+1992
+1996
+2000
+2004
+2008
+2012
+2016
+2020
+Norėdami uždaryti spauskite ENTER
+
+Process finished with exit code 0
